@@ -1,0 +1,1446 @@
+.text_logo {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 7px;
+}
+
+
+/* ---------RESPONSIVE------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1850px) {
+    .main {
+        max-width: 1825px;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    ._container {
+        max-width: 1750px;
+    }
+    .main {
+        max-width: 1725px;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    ._container {
+        max-width: 1600px;
+    }
+    .main {
+        max-width: 1580px;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    ._container {
+        max-width: 1500px;
+    }
+    .main {
+        max-width: 1480px;
+        margin: 10px 10px;
+    }
+    .logo {
+        margin-right: 40px;
+    }
+    .shopping_cart {
+        margin-left: 45px;
+    }
+    .menu_item {
+        margin-right: 100px;
+    }
+    .main_left_round_bg {
+        left: -50%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    ._container {
+        max-width: 1440px;
+    }
+    .logo {
+        margin-right: 40px;
+    }
+    .shopping_cart {
+        margin-left: 45px;
+    }
+    .menu_item {
+        margin-right: 100px;
+    }
+    .main_left_round_bg {
+        left: -50%;
+    }
+    .main {
+        max-width: 1420px;
+        margin: 10px 10px;
+    }
+    .table td {
+        padding: 10px 10px;
+    }
+    .table {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .btn_buy {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    ._container {
+        max-width: 1280px;
+    }
+    .main {
+        max-width: 1260px;
+        margin: 10px 10px;
+    }
+    .logo {
+        margin-right: 40px;
+    }
+    .shopping_cart {
+        margin-left: 45px;
+    }
+    .menu_item {
+        margin-right: 100px;
+    }
+    .main_left_round_bg {
+        left: -50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    ._container {
+        max-width: 1200px;
+    }
+    .main {
+        max-width: 1180px;
+        margin: 10px 10px;
+    }
+    .logo {
+        margin-right: 40px;
+    }
+    .shopping_cart {
+        margin-left: 45px;
+    }
+    .menu_item {
+        margin-right: 100px;
+    }
+    .table {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .btn_buy {
+        font-size: 15px;
+    }
+    .address {
+        max-width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    ._container {
+        max-width: 1024px;
+    }
+    .main {
+        max-width: 1004px;
+        margin: 10px 10px;
+    }
+    .main_container {
+        max-width: 1024px;
+    }
+    .logo {
+        margin-right: 45px;
+    }
+    .shopping_cart {
+        margin-left: 50px;
+    }
+    .menu_item {
+        margin-right: 50px;
+    }
+    .table td {
+        padding: 5px 5px;
+    }
+    .table {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .btn_buy {
+        font-size: 12px;
+    }
+    .profile_info {
+        max-width: 700px;
+    }
+    .profile_item {
+        padding: 0px 0px 0px 10px;
+    }
+    .icon_info {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .profile_edit_inputs {
+        display: inline-block;
+    }
+    .profile_edit_inputs label {
+        display: none;
+    }
+    .profile_edit_inputs input:last-child {
+        margin-top: 10px;
+    }
+    .address {
+        max-width: 980px;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+    }
+    .address_exchange_item input {
+        max-width: 450px;
+    }
+    .affter {
+        max-width: 1000px;
+    }
+    .affter_items {
+        max-width: 1000px;
+    }
+    .buy_paypal img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ._container {
+        max-width: 768px;
+    }
+    .main {
+        max-width: 750px;
+        margin: 10px 10px;
+    }
+    .main_container {
+        max-width: 768px;
+    }
+    ._container {
+        width: 100%;
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+    .shopping_cart {
+        margin-left: 50px;
+    }
+    .menu_item {
+        margin-right: 50px;
+    }
+    .cards {
+        overflow-x: auto;
+    }
+    .table td {
+        padding: 10px 10px;
+    }
+    .table {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .btn_buy {
+        font-size: 12px;
+    }
+    .cards::-webkit-scrollbar {
+        width: 20px;
+        height: 3px;
+    }
+    .cards::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px #bce4ff4d;
+    }
+    .cards::-webkit-scrollbar-thumb {
+        background-color: #00b7ff;
+        outline: 1px solid #00b7ff;
+    }
+    .profile_info {
+        max-width: 700px;
+        margin-top: 30px;
+    }
+    .profile_item {
+        padding: 0px 0px 0px 10px;
+        font-size: 15px;
+    }
+    .icon_info {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    .profile_item_text_value {
+        font-size: 20px;
+    }
+    .profile {
+        display: block;
+    }
+    .address {
+        max-width: 758px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+    }
+    .address_exchange_item input {
+        max-width: 350px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 740px;
+    }
+    .buy_paypal {
+        margin: 0;
+    }
+    .buy_paypal img {
+        width: 125px;
+        height: 125px;
+    }
+    .paypal_btn {
+        font-size: 13px;
+        max-width: 150px;
+    }
+    .cards_not_full {
+        width: 1077px;
+        text-align: center;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    ._container {
+        max-width: 425px;
+    }
+    .main {
+        max-width: 420px;
+        margin: 10px 10px;
+    }
+    .main_container {
+        max-width: 325px;
+    }
+    .main_container h1 {
+        font-size: 50px;
+    }
+    .main_container h2 {
+        font-size: 30px;
+    }
+    ._container {
+        width: 100%;
+        display: block;
+    }
+    .logo {
+        display: flex;
+        margin: 20px 0px 20px 20px;
+        justify-content: space-between;
+    }
+    .logo h1 {
+        font-size: 25px;
+    }
+    .shopping_cart {
+        display: none;
+    }
+    .logo_and_burger {
+        display: flex;
+        max-width: 380px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+    .header_burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        bottom: 9px;
+        transition: all 400ms ease;
+    }
+    .header_burger:before,
+    .header_burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+        transition: all 400ms ease;
+    }
+    .header_burger:before {
+        top: 0;
+    }
+    .header_burger:after {
+        bottom: 0;
+    }
+    .header_burger.active span {
+        transform: scale(0);
+    }
+    .header_burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active:after {
+        transform: rotate(-45deg);
+        top: 9px;
+    }
+    .menu_list {
+        position: absolute;
+        display: block;
+        background-color: #985ACE;
+        left: -100%;
+        transition: all 400ms ease;
+        font-size: 20px;
+    }
+    .menu_list.active {
+        position: relative;
+        left: 0;
+    }
+    .menu_item {
+        margin: 0;
+        padding: 30px 30px 30px 30px;
+    }
+    .menu {
+        height: 65px;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #985ACE;
+    }
+    .profile_edit_inputs input {
+        margin-top: 10px;
+    }
+    .profile_info {
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .profile_item {
+        max-width: 50px;
+        padding: 10px 0px 0px 10px;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        left: 0;
+    }
+    .profile_info_items li:first-child {
+        padding-left: 10px;
+    }
+    .profile_info_items {
+        display: block;
+    }
+    .icon_info {
+        max-width: 35px;
+        max-height: 35px;
+        left: 0;
+    }
+    .profile_item_text_value {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        padding-left: 10px;
+        height: 50px;
+    }
+    .profile {
+        display: block;
+    }
+    .address {
+        max-width: 400px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        min-width: 100%;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 395px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 395px;
+    }
+    .register {
+        max-width: 450px;
+    }
+    .main_register {
+        margin: 0px 80px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .paypal_200 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 200px;
+        height: 200px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .main_register {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .register {
+        margin-top: 50px;
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    ._container {
+        max-width: 425px;
+    }
+    .main {
+        max-width: 405px;
+        margin: 10px 10px;
+    }
+    .main_container {
+        max-width: 325px;
+    }
+    .main_container h1 {
+        font-size: 50px;
+    }
+    .main_container h2 {
+        font-size: 30px;
+    }
+    ._container {
+        width: 100%;
+        display: block;
+    }
+    .logo {
+        display: flex;
+        margin: 20px 0px 20px 20px;
+        justify-content: space-between;
+    }
+    .logo h1 {
+        font-size: 25px;
+    }
+    .shopping_cart {
+        display: none;
+    }
+    .logo_and_burger {
+        display: flex;
+        max-width: 380px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+    .header_burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        bottom: 9px;
+        transition: all 400ms ease;
+    }
+    .header_burger:before,
+    .header_burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+        transition: all 400ms ease;
+    }
+    .header_burger:before {
+        top: 0;
+    }
+    .header_burger:after {
+        bottom: 0;
+    }
+    .header_burger.active span {
+        transform: scale(0);
+    }
+    .header_burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active:after {
+        transform: rotate(-45deg);
+        top: 9px;
+    }
+    .menu_list {
+        position: absolute;
+        display: block;
+        background-color: #985ACE;
+        left: -100%;
+        transition: all 400ms ease;
+        font-size: 20px;
+    }
+    .menu_list.active {
+        position: relative;
+        left: 0;
+    }
+    .menu_item {
+        margin: 0;
+        padding: 30px 30px 30px 30px;
+    }
+    .menu {
+        height: 65px;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #985ACE;
+    }
+    .profile_edit_inputs input {
+        margin-top: 10px;
+    }
+    .profile_info {
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .profile_item {
+        max-width: 50px;
+        padding: 10px 0px 0px 10px;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        left: 0;
+    }
+    .profile_info_items li:first-child {
+        padding-left: 10px;
+    }
+    .profile_info_items {
+        display: block;
+    }
+    .icon_info {
+        max-width: 35px;
+        max-height: 35px;
+        left: 0;
+    }
+    .profile_item_text_value {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        padding-left: 10px;
+        height: 50px;
+    }
+    .profile {
+        display: block;
+    }
+    .address {
+        max-width: 400px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 350px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 395px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 395px;
+    }
+    .register {
+        max-width: 450px;
+    }
+    .main_register {
+        margin: 0px 80px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .paypal_200 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 200px;
+        height: 200px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .main_register {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .register {
+        margin-top: 50px;
+        max-width: 375px;
+    }
+    .support-link {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .chat-box {
+        /* max-width: 260px; */
+        margin: 10px;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-height: 425px) {
+    .menu_item {
+        padding: 25px 25px 25px 25px;
+    }
+}
+
+@media screen and ( max-width: 395px) {
+    .logo_and_burger {
+        max-width: 375px;
+    }
+    ._container {
+        max-width: 375px;
+    }
+    .main {
+        max-width: 375px;
+        margin: 10px 10px;
+    }
+    .menu_item {
+        padding: 20px 20px 20px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .address {
+        max-width: 370px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 375px;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        width: 340px;
+        height: 50px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 335px;
+    }
+    .tittle_h1 {
+        font-size: 22px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 200px;
+        height: 200px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .main_register {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .register {
+        margin-top: 50px;
+        max-width: 370px;
+    }
+}
+
+@media screen and ( max-width: 390px) {
+    .logo_and_burger {
+        max-width: 370px;
+    }
+    ._container {
+        max-width: 375px;
+    }
+    .main {
+        max-width: 370px;
+        margin: 10px 10px;
+    }
+    .menu_item {
+        padding: 20px 20px 20px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .address {
+        max-width: 370px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 375px;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        width: 340px;
+        height: 50px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 335px;
+    }
+    .tittle_h1 {
+        font-size: 22px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 200px;
+        height: 200px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and ( max-width: 375px) {
+    .logo_and_burger {
+        max-width: 335px;
+    }
+    ._container {
+        max-width: 375px;
+    }
+    .main {
+        max-width: 355px;
+        margin: 10px 10px;
+    }
+    .menu_item {
+        padding: 20px 20px 20px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .address {
+        max-width: 350px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 325px;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        width: 320px;
+        height: 50px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 335px;
+    }
+    .tittle_h1 {
+        font-size: 21px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 200px;
+        height: 200px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .main_register {
+        max-width: 345px;
+        margin: 0 auto;
+    }
+    .register {
+        margin-top: 50px;
+        max-width: 345px;
+    }
+    .chat-box {
+        max-width: 290px;
+        margin: 10px;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo_and_burger {
+        max-width: 340px;
+    }
+    ._container {
+        max-width: 370px;
+    }
+    .main {
+        max-width: 340px;
+        margin: 10px 10px;
+    }
+    .cards {
+        max-width: 340px;
+    }
+    .logo h1 {
+        font-size: 18px;
+    }
+    .affter_profile {
+        width: 100%;
+    }
+    .profile {
+        padding: 10px 10px 10px 10px;
+    }
+    .tittle_profile {
+        text-align: center;
+    }
+    .profile_edit_tittle {
+        text-align: center;
+    }
+    .address {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        width: 300px;
+        height: 50px;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 325px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 300px;
+    }
+    .address_value {
+        max-width: 245px;
+    }
+    .tittle_h1 {
+        font-size: 20px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 150px;
+        height: 150px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .main_register {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .register {
+        margin-top: 50px;
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo_and_burger {
+        max-width: 290px;
+    }
+    ._container {
+        max-width: 320px;
+    }
+    .main {
+        max-width: 300px;
+        margin: 10px 10px;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .affter_profile {
+        width: 100%;
+    }
+    .profile {
+        padding: 10px 10px 10px 10px;
+    }
+    .tittle_profile {
+        text-align: center;
+    }
+    .profile_edit_tittle {
+        text-align: center;
+    }
+    .address {
+        max-width: 300px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 275px;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        max-width: 270px;
+        width: 300px;
+        height: 50px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 300px;
+    }
+    .tittle_h1 {
+        font-size: 18px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 145px;
+        height: 145px;
+    }
+    .cards_not_full_text {
+        font-size: 18px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .main_register {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+    .register {
+        margin-top: 50px;
+        max-width: 290px;
+    }
+    .tittle_h1 h1 {
+        font-size: 19px;
+        margin-left: 10px;
+    }
+    .inputs input {
+        max-width: 240px;
+    }
+    .sumbmit {
+        max-width: 240px;
+    }
+    .affter_button {
+        font-size: 18px;
+    }
+    .remember {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+    .captcha {
+        max-width: 240px;
+        margin: 20px 20px;
+    }
+    .technical-support {
+        bottom: 10px;
+        right: 20px;
+    }
+    .support-link {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .chat-box {
+        max-width: 285px;
+        margin: 5px;
+        bottom: 65px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .logo_and_burger {
+        max-width: 290px;
+    }
+    ._container {
+        max-width: 320px;
+    }
+    .main {
+        max-width: 280px;
+        margin: 10px 10px;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .affter_profile {
+        width: 100%;
+    }
+    .profile {
+        padding: 10px 10px 10px 10px;
+    }
+    .tittle_profile {
+        text-align: center;
+    }
+    .profile_edit_tittle {
+        text-align: center;
+    }
+    .address {
+        max-width: 280px;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 225px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 300px;
+    }
+    .tittle_h1 {
+        font-size: 16px;
+    }
+    .paypal {
+        height: 100%;
+    }
+    .buy_paypal {
+        display: block;
+    }
+    .buy_paypal img {
+        width: 120px;
+        height: 120px;
+    }
+    .cards_not_full_text {
+        font-size: 16px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+    .technical-support {
+        bottom: 10px;
+        right: 20px;
+    }
+    .support-link {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .chat-box {
+        max-width: 280px;
+        margin: 2px;
+        bottom: 65px;
+        right: 6px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .logo_and_burger {
+        max-width: 270px;
+    }
+    ._container {
+        max-width: 290px;
+    }
+    .main {
+        max-width: 270px;
+        margin: 10px 10px;
+    }
+    .logo h1 {
+        font-size: 18px;
+    }
+    .affter_profile {
+        width: 100%;
+    }
+    .profile {
+        padding: 10px 10px 10px 10px;
+    }
+    .tittle_profile {
+        text-align: center;
+    }
+    .profile_edit_tittle {
+        text-align: center;
+    }
+    .address {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        width: 220px;
+        height: 50px;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 225px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 300px;
+    }
+    .address_value {
+        max-width: 245px;
+    }
+    .cards_not_full_text {
+        font-size: 16px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .logo_and_burger {
+        max-width: 260px;
+    }
+    ._container {
+        max-width: 290px;
+    }
+    .main {
+        max-width: 270px;
+        margin: 10px 10px;
+    }
+    .cards {
+        max-width: 260px;
+    }
+    .logo h1 {
+        font-size: 18px;
+    }
+    .affter_profile {
+        width: 100%;
+    }
+    .profile {
+        padding: 10px 10px 10px 10px;
+    }
+    .tittle_profile {
+        text-align: center;
+    }
+    .profile_edit_tittle {
+        text-align: center;
+    }
+    .address {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .address_exchange {
+        margin: 10px 10px;
+    }
+    .address_exchange_address {
+        display: block;
+    }
+    .address_exchange_address input {
+        font-size: 12px;
+        width: 220px;
+        height: 50px;
+    }
+    .address_exchange_item {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    .address_exchange_item input {
+        max-width: 225px;
+    }
+    .address_qrcode_after {
+        margin-bottom: 40px;
+    }
+    .affter {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .affter_items {
+        max-width: 300px;
+    }
+    .address_value {
+        max-width: 245px;
+    }
+    .cards_not_full_text {
+        font-size: 16px;
+    }
+    .cards_not_full {
+        width: 1077px;
+    }
+    .cards_not_full_item {
+        padding: 10px 10px;
+    }
+}

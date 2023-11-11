@@ -1,0 +1,608 @@
+/* ---------------РћР±РЅСѓР»РµРЅРёРµ----------------------------------------------------------------------- */
+
+
+/* font-family: 'Montserrat', sans-serif; */
+
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+/* font-family: 'Tilt Warp', cursive; */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    overflow-x: hidden;
+    background-color: #eae9eb;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+._container {
+    width: 1920px;
+    margin: 0px auto;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+/* --------------HEADER----------------------------------------------------------------------------------------------- */
+
+.header {
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    background: #985ACE;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    box-shadow: 4px 4px 16px -3px rgb(95, 93, 95);
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+.text_logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.link_logo {
+    color: #fff;
+}
+
+.menu_list {
+    display: flex;
+}
+
+.menu_item {
+    margin-right: 120px;
+    display: flex;
+}
+
+.menu_item:last-child {
+    margin-right: 0px;
+}
+
+.card {
+    width: 20px;
+    height: 20px;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #985ACE;
+    min-width: 110px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 55px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 400ms ease;
+}
+
+.dropdown-content a:hover {
+    color: #dcbef6;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(220, 190, 246, 1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(220, 190, 246, 1);
+    box-shadow: 0px 0px 10px 4px rgba(220, 190, 246, 1);
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown-content p {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 400ms ease;
+}
+
+._cards:after {
+    content: '';
+    display: inline-block;
+    border-right: solid #fffa;
+    border-top: solid #fffa;
+    width: 7px;
+    height: 7px;
+    transform: translate(8px, 10px) rotate(45deg);
+    margin-bottom: 11px;
+}
+
+._info:after {
+    content: '';
+    display: inline-block;
+    border-right: solid #fffa;
+    border-top: solid #fffa;
+    width: 7px;
+    height: 7px;
+    transform: translate(8px, 10px) rotate(45deg);
+    margin-bottom: 11px;
+}
+
+.tickets {
+    width: 20px;
+    height: 20px;
+}
+
+.info {
+    width: 20px;
+    height: 20px;
+}
+
+.wallet {
+    width: 20px;
+    height: 20px;
+}
+
+.people {
+    width: 20px;
+    height: 20px;
+}
+
+.person {
+    width: 20px;
+    height: 20px;
+}
+
+.logout {
+    width: 20px;
+    height: 20px;
+}
+
+.menu_link {
+    color: #fff;
+    transition: all 400ms ease;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.menu_link:hover {
+    color: #dcbef6;
+}
+
+.shopping_cart {
+    margin-left: 150px;
+}
+
+.icon_cart {}
+
+
+/* ------------------BUY-CARDS--------------------------------------------------------------------------------------- */
+
+caption {
+    caption-side: bottom;
+    text-align: right;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.container {
+    width: 1850px;
+    margin: 0 auto;
+}
+
+.main {}
+
+.cards_not_full {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    -webkit-box-shadow: 0px 0px 10px 2px green;
+    -moz-box-shadow: 0px 0px 10px 2px green;
+    box-shadow: 0px 0px 10px 2px green;
+}
+
+.platinum {
+    -webkit-box-shadow: 0px 0px 10px 2px #985ACE;
+    -moz-box-shadow: 0px 0px 10px 2px #985ACE;
+    box-shadow: 0px 0px 10px 2px #985ACE;
+}
+
+.cards_not_full_item {
+    padding: 20px 20px;
+    border-left: 1px solid rgb(220, 220, 220);
+    border-right: 1px solid rgb(220, 220, 220);
+}
+
+.cards_not_full_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.select {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #eae9eb;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 35px 10px 15px;
+}
+
+.cards_not_full_input {
+    width: 65px;
+    height: 30px;
+    text-align: center;
+}
+
+.cards_not_full_btn {
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 1px solid #eae9eb;
+    background-color: #fff;
+    transition: all 400ms ease;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+}
+
+.cards_not_full_btn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.btn_platinum:hover {
+    background-color: #985ACE;
+}
+
+.tittle_text {
+    margin-top: 100px;
+}
+
+.tittle_h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.text {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: rgb(238, 2, 2);
+}
+
+.cards {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.cards_not_full_tittle {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.table tr {
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.table th {
+    border-right: 1px solid rgb(220, 220, 220);
+    border-left: 1px solid rgb(220, 220, 220);
+}
+
+.table td {
+    padding: 25px 15px;
+    border-right: 1px solid rgb(220, 220, 220);
+    border-left: 1px solid rgb(220, 220, 220);
+}
+
+.btn_buy {
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #eae9eb;
+    transition: all 400ms ease;
+}
+
+.btn_buy:hover {
+    background-color: green;
+    color: #fff;
+}
+
+
+/* --------------FOOTER---------------------------------------------------------------------------------- */
+
+.footer {}
+
+/* .contact_us {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 35px;
+}
+.contact_icon {
+} */
+
+/* -----------POPUP----------------------------------------------------------------------------------------------- */
+
+.popup {
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(255, 53, 53, 0.8);
+    top: 2%;
+    right: 3%;
+    z-index: 500;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 400ms ease;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.popup_content {
+    color: #fff;
+    max-width: 300px;
+    max-height: 100px;
+    position: relative;
+}
+
+.popup_close {
+    position: absolute;
+    right: -19%;
+    top: -25%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup_tittle {
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup_text {
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------Technical-Support------------------------------- */
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.set-off-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(183.08deg,rgba(0, 123, 255, 0.2) 43.82%,rgba(0, 123, 255, 0.2) 111.17%);
+    border-radius: 100px;
+    padding: 7px;
+}
+
+.pulsating {
+    animation: pulse 2s infinite;
+}
+
+.technical-support {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 30px; /* Adjust the distance from the right */
+    z-index: 999; /* Ensure the button stays on top of other content */
+}
+
+.support-link {
+    /* transition: all 0.3s ease; */
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 123, 255);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+/* .support-link:hover {
+    transition: all 0.1s ease;
+    width: 55px;
+    height: 55px;
+} */
+
+.icon_message {
+    width: 100%;
+    height: 100%;
+}
+
+/* General styles */
+.chat-box {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    animation: slideIn 0.5s ease;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-chat {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.chat-content {
+    padding: 20px;
+}
+
+/* Message container */
+.message-container {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+/* Input container */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Input and send button */
+.input-container input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container .send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container .send-button:hover {
+    background-color: #0056b3;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+#chatMessage:invalid {
+    border: 1px solid red;
+}

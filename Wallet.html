@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://octopustash.cc/wallet.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://octopustash.cc/img/octopus.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="./Wallet_files/css2" rel="stylesheet">
+        <link rel="stylesheet" href="./css/11.css">
+        <link rel="stylesheet" href="./css/12.css">
+        <title>Wallet</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="_container">
+                <header class="header">
+                    <nav class="menu">
+                        <div class="logo_and_burger">
+                            <div class="logo">
+                                <h1 class="text_logo">cardsC<span>C</span></h1>
+                            </div>
+                            <div class="header_burger">
+                                <span></span>
+                            </div>
+                        </div>
+                        <ul class="menu_list">
+                            <li class="menu_item">
+                                <img class="card" src="./Wallet_files/card.png" alt="card" no-repeat="" center="" left="">
+                                <div href="" class="menu_link _cards dropbtn" onclick="submenu()">Buy</div>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="Buy cards.html">Buy cards</a>
+                                    <a href="Buy PayPal.html">Buy paypal</a>
+                                    <!-- <a href="/mycards.html">My cards</a> -->
+                                </div>
+                            </li>
+                            <li class="menu_item">
+                                <img class="info" src="./Wallet_files/info.png" alt="info" no-repeat="" center="" left="">
+                                <div href="" class="menu_link _info dropbtn" onclick="submenuInfo()">Info</div>
+                                <div id="myDropdownInfo" class="dropdown-content">
+                                    <a href="Rules.html">Rules</a>
+                                    <a href="Rules.html">Faq</a>
+                                </div>
+                            </li>
+                            <li class="menu_item">
+                                <img class="wallet" src="./Wallet_files/wallet.png" alt="wallet" no-repeat="" center="" left="">
+                                <a href="Wallet.html" class="menu_link">Wallet</a>
+                            </li>
+                            <!-- <li class="menu_item">
+                                <img class="person" src="./Wallet_files/person.png" alt="person" no-repeat="" center="" left="">
+                                <a href="https://octopustash.cc/profile.php" class="menu_link">Profile</a>
+                            </li>
+                            <li class="menu_item">
+                                <img class="logout" src="./Wallet_files/logout.png" alt="logout" no-repeat="" center="" left="">
+                                <a href="https://octopustash.cc/logout.php" class="menu_link">Logout</a>
+                            </li> -->
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <div class="container">
+                <main class="main">
+                    <div class="tittle">
+                        <h1 class="tittle_text">
+                            Wallet(обязательно указывайте свой юзернейм в телеграме в коммениариях к платежу!)
+                        </h1>
+                    </div>
+                    <div class="address">
+                        <div class="address_exchange">
+                            <div class="address_exchange_address">
+                                <div class="address_exchange_item">
+                                    <h2 class="address_tittle_btc">BTC</h2>
+                                    <div class="address_wallet_qrcode">
+                                        <img src="./images/btc.jpg" alt="qrcode_btc">
+                                    </div>
+                                    <input class="address_wallet" id="inputText" value="1QKKt7EACigPPBLJpk1ttJxmbKSJDZo4pU" readonly="">
+                                    <div class="address_wallet_copy">
+                                        <button class="address_wallet_copy_btn" id="copyText" title="Address copy">Copy</button>
+                                    </div>
+                                </div>
+                                <div class="address_exchange_item">
+                                    <h2 class="address_tittle_bnb">BNB(Bep20)</h2>
+                                    <div class="address_wallet_qrcode">
+                                        <img src="./images/bnb.jpg" alt="qrcode_bnb">
+                                    </div>
+                                    <input class="address_wallet" id="inputText2" value="0xc88428cfe81e30440f1fd8ff55dfc2afd794aaf0" readonly="">
+                                    <div class="address_wallet_copy">
+                                        <button class="address_wallet_copy_btn" id="copyText2" title="Address copy">Copy</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <form action="https://octopustash.cc/telegram.php" method="post">
+                            <div class="address_exchange_value">
+                                <input class="address_value_login" type="text" name="telegram" value="@aye_bitches" readonly="">
+                                <input class="address_value_login" type="text" name="login" value="MakeM" readonly="">
+                                <input class="address_value" type="text" data-mask="0$" placeholder="50$" name="value" required="">
+                                <h2>Paid</h2>
+                                <div class="address_exchange_value_or">
+                                    <input class="address_btn_value" type="submit" name="btc" value="(BTC)" readonly="" required="">
+                                    <input class="address_btn_value" type="submit" name="bnb" value="(BNB)" readonly="" required="">
+                                </div>
+                                <input class="address_value" type="number" placeholder="50$" name="value"> 
+                                <button class="address_btn_value">Paid</button>
+                            </div>
+                        </form>  -->
+                         <!-- <div class="address_qrcode_after"> 
+                            <p class="minimal_dep">Money comes within 6 hours</p> 
+                        </div> -->
+                    </div>
+                     <!-- <div class="affter">
+                        <ul class="affter_items">
+                            <li class="affter_item">Hash</li>
+                            <li class="affter_item">Adress</li>
+                            <li class="affter_item">Amount</li>
+                            <li class="affter_item">Created at</li>
+                        </ul>
+                    </div>  -->
+                </main>
+                <footer class="footer">
+                    <!-- <div class="none"></div>
+                    <div class="technical-support">
+                        <div class="set-off-btn pulsating">
+                            <div class="set-off-btn pulsating">
+                                <a href="https://octopustash.cc/wallet.php#" class="support-link" onclick="openChat()">
+                                    <img class="icon_message" src="./Wallet_files/contact_message.png" alt="Technical Support">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box" id="chatBox" style="display: none;">
+                        <div class="chat-header">
+                            <h3>Chat with Support</h3>
+                            <button class="close-chat" onclick="closeChat()">X</button>
+                        </div>
+                        <div class="chat-content" id="chatContent">
+                            <div class="message-container" id="messageContainer"></div>
+                            <div class="input-container">
+                                <input type="text" id="chatMessage" placeholder="Type your telegram..." oninput="checkInput()" required="">
+                                <button class="send-button" onclick="sendMessage()">Send</button>
+                            </div>
+                        </div>
+                    </div> -->
+                </footer>
+            </div>
+        </div>
+            
+        <script src="./Wallet_files/jquery-3.4.1.slim.min.js"></script>
+        <script src="./Wallet_files/jsuites.js"></script>
+        <script src="./Wallet_files/script.js"></script>
+        <script src="./Wallet_files/wallet.js"></script>
+    
+
+    </body></html>
